@@ -1,0 +1,4 @@
+1. create files as shown.
+2. run webLayerTest and another class -> the target folder are created.
+3. create file /main/asciidoc/index.adoc
+4. run maven command : mvn package to generate html restdocs

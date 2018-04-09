@@ -6,12 +6,16 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/jpa-repository/pom.xml" />
         <option value="$PROJECT_DIR$/jpa-repo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-hateoas/pom.xml" />
+        <option value="$PROJECT_DIR$/sp-hateoas/pom.xml" />
+        <option value="$PROJECT_DIR$/sp-restdocs/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/jpa-repository/pom.xml" />
         <option value="$PROJECT_DIR$/jparepository/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-hateoas/pom.xml" />
       </set>
     </option>
   </component>

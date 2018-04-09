@@ -23,11 +23,11 @@ public class UserController {
         return "Hello";
     }
 
-    @GetMapping(value = "/{id}", produces= MediaType.APPLICATION_JSON_VALUE)
-    public User getUserById(@PathVariable("id") Long id){
-        User user = userService.getUsers(id);
-        System.out.println(user);
-        return user;
-    }
+    //    @GetMapping(value = "/{id}", produces= MediaType.APPLICATION_JSON_VALUE)
+    //    public User getUserById(@PathVariable("id") Long id){
+    //        User user = userService.getUsers(id);
+    //        System.out.println(user);
+    //        return user;
+    //    }
 
 }

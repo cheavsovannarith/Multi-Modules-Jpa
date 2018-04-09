@@ -7,14 +7,28 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jpa-repo" />
+        <module name="jpa-repo (1)" />
+        <module name="sp-hateoas" />
+        <module name="sp-restdocs" />
+        <module name="spring-hatoas" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="hateoas" target="1.8" />
       <module name="jpa-repo" target="1.8" />
+      <module name="jpa-repo (1)" target="1.8" />
+      <module name="jpa-repo_1" target="1.8" />
       <module name="jpa-repos" target="1.8" />
       <module name="jpa-repository" target="1.8" />
       <module name="jparepository" target="1.8" />
+      <module name="kk" target="1.8" />
+      <module name="sp-hateoas" target="1.8" />
+      <module name="sp-restdocs" target="1.8" />
       <module name="Spring Multi Modules Project with JPA" target="1.8" />
+      <module name="spring-hateoas" target="1.8" />
+      <module name="spring-hatoas" target="1.8" />
+      <module name="spring-restful" target="1.8" />
+      <module name="springhateoas" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
