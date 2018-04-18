@@ -6,14 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="book" />
+        <module name="gateway" />
         <module name="jpa-repo" />
         <module name="jpa-repo (1)" />
         <module name="sp-hateoas" />
         <module name="sp-restdocs" />
+        <module name="sp-security-oauth" />
+        <module name="sp-swagger-ui" />
         <module name="spring-hatoas" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="book" target="1.8" />
+      <module name="gateway" target="1.8" />
       <module name="hateoas" target="1.8" />
       <module name="jpa-repo" target="1.8" />
       <module name="jpa-repo (1)" target="1.8" />
@@ -24,6 +30,9 @@
       <module name="kk" target="1.8" />
       <module name="sp-hateoas" target="1.8" />
       <module name="sp-restdocs" target="1.8" />
+      <module name="sp-routing-and-filtering" target="1.5" />
+      <module name="sp-security-oauth" target="1.8" />
+      <module name="sp-swagger-ui" target="1.8" />
       <module name="Spring Multi Modules Project with JPA" target="1.8" />
       <module name="spring-hateoas" target="1.8" />
       <module name="spring-hatoas" target="1.8" />

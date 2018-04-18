@@ -1,0 +1,252 @@
+= Notification API Document
+Cheav Sovannarith
+v1.1.1
+:sectnums:
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 5
+:sectlinks:
+
+[cols="3,3,5"]
+|===
+|Version|Date|Description
+
+|1.0.0
+|17-02-2018
+|Initialize Document
+
+|===
+
+NOTE: This document is for Core Developer. It is designed with JSON RPC concept in mind (POST everything).
+
+Git clone project from
+
+[source,command]
+----
+git clone https://gitlab.com/Sovannarith/Multi-Modules-Jpa.git
+----
+
+BaseURL = http://localhost:8080
+
+== Get
+
+
+== Get
+=== Retrieve an User
+
+[source,bash]
+----
+$ curl 'http://localhost:8080/1' -i -X GET
+----
+This API is used to retrieve an user information by id.
+
+Response
+[source,json]
+----
+{
+    "id": "1",
+    "name": "Cheav Sovannarith",
+    "gender": "Male"
+}
+----
+
+=== Retrieve List Of User
+
+[source,bash]
+----
+$ curl 'http://localhost:8080/users' -i -X GET
+----
+This API is used to retrieve list of user's information.
+
+Response
+[source,json]
+----
+[
+    {
+        "id": "1",
+        "name": "Cheav Sovannarith",
+        "gender": "Male"
+    },
+    {
+        "id": "2",
+        "name": "TinFy Lu",
+        "gender": "Male"
+    }
+]
+----
+
+== DELETE
+
+This API is for sending notification direct in batch.
+
+It is called from core system.
+
+Request
+[source,json]
+----
+{
+    "requestId": "2018012310310844",
+    "serviceId": "sendNotifications",
+    "requestGateWay": "merchant_mobile",
+    "data": {
+        "title": "10.000 USD - Feb 06, 2018 | 16:28:24",
+        "body": "Amount 10.000 USD was paid successfully from AliPay account: cnbuyer_0124@alitest.com on Feb 06, 2018 at 16:28:24",
+        "notifyType": "token",
+        "topic": "retail_payment_alipay",
+        "listAccountIds": [30000094, 30000146]
+    }
+}
+----
+
+Response
+[source,json]
+----
+{
+    "errorCode": "S00001",
+    "message": "Success",
+    "requestId": "2018012310310844",
+    "status": "T"
+}
+----
+
+== Send Notification to Topic
+
+This API is for sending notification to a topic.
+
+It is called from core system.
+
+Request
+[source,json]
+----
+{
+    "accountId": 30000145,
+    "requestId": "sdf",
+    "serviceId": "sendNotification",
+    "requestGateWay": "merchant_mobile",
+    "data": {
+        "title": "myN-otification001",
+        "body": "sdf",
+        "notifyType": "topic",
+        "topic": "all"
+    }
+}
+----
+
+Response
+[source,json]
+----
+{
+    "errorCode": "S00001",
+    "message": "Success",
+    "requestId": "2018012310310844",
+    "status": "T"
+}
+----
+
+== Upsert Firebase Token
+
+This API is for update or insert firebase token and while at it, subscribe it to any given topics.
+
+It is called from core system or from mobile devices.
+
+Request
+[source,json]
+----
+{
+    "accountId": 30000099,
+    "data": {
+        "notificationToken": "drd-oGUekAg:APA91bFe5AbN_PWxFaDbLpWfCnGG8s8j-SZyqTH4R2-g1bwU5Xx3z3tqui5qchpbgGs4X2xLiLp4ByoFvJm4lLQnafKP3cc4fVdChV5lLZ594l6qkoblpcYFd88aOMj2Q4Unwi1MDcSy",
+        "listTopics": ["topica", "topicb"]
+    },
+    "deviceId": "Android.ffffffff-ca6d-b1cf-ec31-298961ff4d12-1518764224434",
+    "requestGateWay": "agent_mobile",
+    "requestId": "2018012310310844",
+    "serviceId": "upsert"
+}
+----
+
+Response
+[source,json]
+----
+{
+    "errorCode": "S00001",
+    "message": "Success",
+    "requestId": "2018012310310844",
+    "status": "T"
+}
+----
+
+== List Notification Report
+
+NOTE: This API is idempotent.
+
+This API is for list notification report descending limit 200.
+
+It is called from mobile devices.
+
+Request
+[source,json]
+----
+{
+    "accountId": 30000094,
+    "deviceId": "Android.ffffffff-af35-caf2-0fcf-73792db24ea0-1516764139359",
+    "requestGateWay": "merchant_mobile",
+    "requestId": "20180124163006501",
+    "serviceId": "listNotifications"
+}
+----
+
+Response
+[source,json]
+----
+{
+    "data": {
+        "notifications": [
+            {
+                "body": "Amount 1.000 USD was paid successfully from AliPay account: cnbuyer_0124@alitest.com on Feb 06, 2018 at 13:48:52",
+                "id": 4922,
+                "title": "1.000 USD - Feb 06, 2018 | 13:48:52"
+            }
+        ]
+    },
+    "errorCode": "S00001",
+    "message": "Success",
+    "requestId": "20180216135841563",
+    "status": "T"
+}
+----
+
+== Acknowledge Delivery
+
+NOTE: This API is idempotent.
+
+This API is for acknowledgement that a *direct* notification is received.
+
+It is called from mobile devices.
+
+Request
+[source,json]
+----
+{
+    "accountId": 30000099,
+    "data": {
+        "id": "100044"
+    },
+    "deviceId": "Android.ffffffff-ca6d-b1cf-ec31-298961ff4d12-1518764224434",
+    "requestGateWay": "merchant_mobile",
+    "requestId": "20180216140106369",
+    "serviceId": "acknowledgeDelivery"
+}
+----
+
+Response
+[source,json]
+----
+{
+    "errorCode": "S00001",
+    "message": "Success",
+    "requestId": "20180216140106369",
+    "status": "T"
+}
+----
