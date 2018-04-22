@@ -9,7 +9,6 @@
       <module fileurl="file://$PROJECT_DIR$/sp-hateoas/sp-hateoas.iml" filepath="$PROJECT_DIR$/sp-hateoas/sp-hateoas.iml" />
       <module fileurl="file://$PROJECT_DIR$/sp-restdocs/sp-restdocs.iml" filepath="$PROJECT_DIR$/sp-restdocs/sp-restdocs.iml" />
       <module fileurl="file://$PROJECT_DIR$/sp-routing-and-filtering/sp-routing-and-filtering.iml" filepath="$PROJECT_DIR$/sp-routing-and-filtering/sp-routing-and-filtering.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sp-security-oauth/sp-security-oauth.iml" filepath="$PROJECT_DIR$/sp-security-oauth/sp-security-oauth.iml" />
       <module fileurl="file://$PROJECT_DIR$/sp-swagger-ui/sp-swagger-ui.iml" filepath="$PROJECT_DIR$/sp-swagger-ui/sp-swagger-ui.iml" />
     </modules>
   </component>

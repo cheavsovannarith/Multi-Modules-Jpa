@@ -10,7 +10,6 @@
         <option value="$PROJECT_DIR$/sp-hateoas/pom.xml" />
         <option value="$PROJECT_DIR$/sp-restdocs/pom.xml" />
         <option value="$PROJECT_DIR$/sp-swagger-ui/pom.xml" />
-        <option value="$PROJECT_DIR$/sp-security-oauth/pom.xml" />
         <option value="$PROJECT_DIR$/sp-routing-and-filtering/pom.xml" />
         <option value="$PROJECT_DIR$/book/pom.xml" />
         <option value="$PROJECT_DIR$/gateway/pom.xml" />

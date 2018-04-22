@@ -12,7 +12,6 @@
         <module name="jpa-repo (1)" />
         <module name="sp-hateoas" />
         <module name="sp-restdocs" />
-        <module name="sp-security-oauth" />
         <module name="sp-swagger-ui" />
         <module name="spring-hatoas" />
       </profile>

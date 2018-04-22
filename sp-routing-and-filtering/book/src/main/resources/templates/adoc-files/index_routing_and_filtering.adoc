@@ -1,0 +1,179 @@
+= Routing And Filtering
+Cheav Sovannarith
+v1.0.0
+:sectnums:
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 5
+:sectlinks:
+
+[cols="3,3,5"]
+|===
+|Version|Date|Description
+
+|1.0.0
+|19-04-2018
+|Initialize Document
+
+|===
+
+NOTE: This document is from my research only.
+
+Git clone project from
+
+[source,command]
+----
+git clone https://gitlab.com/Sovannarith/Multi-Modules-Jpa.git
+----
+
+Module names:
+
+[source,command]
+----
+sp-routing-and-filtering
+----
+
+BaseURL in gateWay Module = http://host:port/books
+
+== About This Guide
+
+This guide walks you through the process of routing and filtering requests to a microservice application using the Netflix Zuul edge service library.
+
+== What you’ll need
+
+- About 15 minutes
+- A favorite text editor or IDE
+- JDK 1.8 or later
+- Gradle 4+ or Maven 3.2+
+- You can also import the code straight into your IDE:
+* Spring Tool Suite (STS)
+* IntelliJ IDEA
+
+== Add A Filter
+
+Zuul has four standard filter types:
+
+- pre filters are executed before the request is routed,
+- route filters can handle the actual routing of the request,
+- post filters are executed after the request has been routed, and
+- error filters execute if an error occurs in the course of handling the request.
+
+== Code Detail
+
+=== Book Module
+==== pom.xml
+In *Book* Module, We will use html file, So we need to import some dependencies as below :
+
+[source,command]
+----
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>net.sourceforge.nekohtml</groupId>
+            <artifactId>nekohtml</artifactId>
+            <version>1.9.21</version>
+        </dependency>
+    </dependencies>
+----
+
+=== Gateway Module
+==== pom.xml
+*Important use:*
+
+[source,command]
+----
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zuul</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Brixton.SR5</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+----
+
+==== SimpleFilter Class
+
+we use that class to filter the request, custom response ...
+
+*Sample code:*
+
+[source,command]
+----
+import com.netflix.zuul.ZuulFilter;
+
+import static com.netflix.zuul.context.RequestContext.getCurrentContext;
+import static org.springframework.util.ReflectionUtils.rethrowRuntimeException;
+public class SimpleFilter extends ZuulFilter {
+
+    @Override
+    public String filterType() {
+        return "post";
+    }
+
+    @Override
+    public int filterOrder() {
+        return 1;
+    }
+
+    @Override
+    public boolean shouldFilter() {
+        return true;
+    }
+
+    @Override
+    public Object run() {
+        // ...
+        return null;
+    }
+----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
