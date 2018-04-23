@@ -4,15 +4,13 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jpa-repo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sp-hateoas" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sp-resource-properties-path" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sp-restdocs" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sp-routing-and-filtering" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sp-routing-and-filtering" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sp-routing-and-filtering" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sp-routing-and-filtering" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sp-routing-and-filtering/book" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sp-routing-and-filtering/gateway" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sp-security-oauth" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sp-security-oauth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sp-security-basic-authentication" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sp-security-inmemory-authentication" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sp-swagger-ui" charset="UTF-8" />
   </component>
 </project>

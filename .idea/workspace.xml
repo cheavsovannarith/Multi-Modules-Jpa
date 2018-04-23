@@ -2,74 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ad695c-34ca-420f-a74c-c7bd0f212c63" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp-routing-and-filtering/book/src/main/java/com/sovannarith/sproutingandfiltering/book/config/MainConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp-routing-and-filtering/book/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp-routing-and-filtering/book/src/main/resources/templates/adoc-files/index_routing_and_filtering.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp-routing-and-filtering/book/src/main/resources/templates/html/index_routing_and_filtering.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_expression_processor_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_2_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_5_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_5_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_4_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity4_3_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_3_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bootstrap_3_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp-resource-properties-path/src/main/java/com/sovannarith/spresourcepropertiespath/config/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp-resource-properties-path/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp-security-basic-authentication/src/main/java/com/sovannarith/spsecuritybasicauthentication/config/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp-security-basic-authentication/src/main/java/com/sovannarith/spsecuritybasicauthentication/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp-security-basic-authentication/src/main/resources/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp-security-basic-authentication/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp-security-basic-authentication/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/java/com/sovannarith/spsecurityinmemoryauthentication/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/java/com/sovannarith/spsecurityinmemoryauthentication/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/java/com/sovannarith/spsecurityinmemoryauthentication/web/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/java/com/sovannarith/spsecurityinmemoryauthentication/web/LoggingAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/resources/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/resources/static/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/resources/templates/error/access-denied.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/resources/templates/fragments/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/resources/templates/user/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_0_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_4_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_1_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_security_2_0_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_oauth2_2_0_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_security_2_0_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_boot_spring_security_oauth2_autoconfigure_2_0_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_0_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sp-routing-and-filtering/book/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sp-routing-and-filtering/book/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sp-routing-and-filtering/gateway/src/main/java/com/sovannarith/sproutingandfilter/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/sp-routing-and-filtering/gateway/src/main/java/com/sovannarith/sproutingandfilter/gateway/GatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sp-routing-and-filtering/gateway/src/main/java/com/sovannarith/sproutingandfilter/gateway/filter/pre/SimpleFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/sp-routing-and-filtering/gateway/src/main/java/com/sovannarith/sproutingandfilter/gateway/filter/pre/SimpleFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sp-routing-and-filtering/gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sp-routing-and-filtering/gateway/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -93,6 +104,9 @@
     <ignored path="$PROJECT_DIR$/sp-routing-and-filtering/book/target/" />
     <ignored path="$PROJECT_DIR$/gateway/target/" />
     <ignored path="$PROJECT_DIR$/sp-routing-and-filtering/gateway/target/" />
+    <ignored path="$PROJECT_DIR$/sp-resource-properties-path/target/" />
+    <ignored path="$PROJECT_DIR$/sp-security-basic-authentication/target/" />
+    <ignored path="$PROJECT_DIR$/sp-security-inmemory-authentication/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,16 +132,60 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MainConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sp-routing-and-filtering/book/src/main/java/com/sovannarith/sproutingandfiltering/book/config/MainConfig.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/java/com/sovannarith/spsecurityinmemoryauthentication/config/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-77">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="32" />
+            <state relative-caret-position="516">
+              <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
               <folding>
-                <element signature="e#438#452#0" expanded="true" />
-                <element signature="method#addViewControllers#0;class#MainConfig#0" expanded="true" />
-                <element signature="method#addResourceHandlers#0;class#MainConfig#0" expanded="true" />
+                <element signature="method#configure#1;class#SecurityConfig#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/java/com/sovannarith/spsecurityinmemoryauthentication/web/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sp-security-inmemory-authentication/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-329">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/resources/static/css/main.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="logo.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/resources/static/img/logo.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/java/com/sovannarith/spsecurityinmemoryauthentication/controller/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+              <folding>
+                <element signature="method#greeting#0;class#HomeController#0" expanded="true" />
+                <element signature="method#m#0;class#HomeController#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,8 +198,9 @@
       <list>
         <option value="package-info" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -161,21 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sp-restdocs/src/main/java/com/sovannarith/sprestdocs/service/BikeService.java" />
-        <option value="$PROJECT_DIR$/sp-restdocs/src/main/java/com/sovannarith/sprestdocs/controller/HomeController.java" />
-        <option value="$PROJECT_DIR$/sp-restdocs/src/main/java/com/sovannarith/sprestdocs/BikeDoc.java" />
-        <option value="$PROJECT_DIR$/sp-restdocs/src/main/java/com/sovannarith/sprestdocs/model/Hey.java" />
-        <option value="$PROJECT_DIR$/sp-restdocs/src/main/java/com/sovannarith/sprestdocs/WebLayerTest2.java" />
-        <option value="$PROJECT_DIR$/sp-restdocs/src/main/java/com/sovannarith/sprestdocs/WebLayerTest1.java" />
-        <option value="$PROJECT_DIR$/sp-restdocs/src/main/asciidoc/index.adoc" />
-        <option value="$PROJECT_DIR$/sp-restdocs/target/generated-snippets/user-api.adoc" />
-        <option value="$PROJECT_DIR$/sp-restdocs/src/main/java/com/sovannarith/sprestdocs/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/sp-restdocs/src/main/java/com/sovannarith/sprestdocs/model/User.java" />
-        <option value="$PROJECT_DIR$/sp-restdocs/pom.xml" />
-        <option value="$PROJECT_DIR$/sp-restdocs/src/main/java/com/sovannarith/sprestdocs/SpRestdocsApplication.java" />
-        <option value="$PROJECT_DIR$/sp-restdocs/src/main/java/com/sovannarith/sprestdocs/RestController/restDoc/RestDocController.java" />
-        <option value="$PROJECT_DIR$/sp-restdocs/src/main/java/com/sovannarith/sprestdocs/RestController/UserController.java" />
-        <option value="$PROJECT_DIR$/sp-restdocs/src/main/java/com/sovannarith/sprestdocs/UserService/UserService.java" />
         <option value="$PROJECT_DIR$/sp-restdocs/src/main/java/com/sovannarith/sprestdocs/WebLayerTest.java" />
         <option value="$PROJECT_DIR$/sp-restdocs/src/main/resources/user-api.adoc" />
         <option value="$PROJECT_DIR$/sp-swagger-ui/src/main/java/com/sovannarith/spswaggerui/config/MainConfig.java" />
@@ -212,6 +256,21 @@
         <option value="$PROJECT_DIR$/sp-routing-and-filtering/gateway/src/main/java/com/sovannarith/sproutingandfilter/gateway/GatewayApplication.java" />
         <option value="$PROJECT_DIR$/sp-routing-and-filtering/gateway/src/main/java/com/sovannarith/sproutingandfilter/gateway/filter/pre/SimpleFilter.java" />
         <option value="$PROJECT_DIR$/sp-routing-and-filtering/book/src/main/java/com/sovannarith/sproutingandfiltering/book/config/MainConfig.java" />
+        <option value="$PROJECT_DIR$/sp-resource-properties-path/src/main/resources/inner/application.properties" />
+        <option value="$PROJECT_DIR$/sp-resource-properties-path/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/sp-resource-properties-path/src/main/java/com/sovannarith/spresourcepropertiespath/config/TestClass.java" />
+        <option value="$PROJECT_DIR$/sp-security-basic-authentication/src/main/resources/templates/home.html" />
+        <option value="$PROJECT_DIR$/sp-security-basic-authentication/src/main/java/com/sovannarith/spsecuritybasicauthentication/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/sp-security-basic-authentication/src/main/java/com/sovannarith/spsecuritybasicauthentication/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/sp-security-basic-authentication/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/sp-security-basic-authentication/src/main/resources/templates/hello.html" />
+        <option value="$PROJECT_DIR$/sp-security-basic-authentication/pom.xml" />
+        <option value="$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/java/com/sovannarith/spsecurityinmemoryauthentication/SpSecurityInmemoryAuthenticationApplication.java" />
+        <option value="$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/resources/spring-security-config.xml" />
+        <option value="$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/java/com/sovannarith/spsecurityinmemoryauthentication/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/sp-security-inmemory-authentication/pom.xml" />
+        <option value="$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/java/com/sovannarith/spsecurityinmemoryauthentication/web/HomeController.java" />
+        <option value="$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/java/com/sovannarith/spsecurityinmemoryauthentication/config/SecurityConfig.java" />
       </list>
     </option>
   </component>
@@ -296,7 +355,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,34 +368,25 @@
             <path>
               <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
-              <item name="sp-routing-and-filtering" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-security-basic-authentication" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
-              <item name="sp-routing-and-filtering" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
-              <item name="sp-routing-and-filtering" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-security-basic-authentication" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
-              <item name="sp-routing-and-filtering" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-security-basic-authentication" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
-              <item name="sp-routing-and-filtering" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-security-basic-authentication" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -342,29 +394,26 @@
             <path>
               <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
-              <item name="sp-routing-and-filtering" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-security-basic-authentication" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="spsecuritybasicauthentication" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
-              <item name="sp-routing-and-filtering" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-security-basic-authentication" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="spsecuritybasicauthentication" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
-              <item name="sp-routing-and-filtering" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-security-basic-authentication" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -372,8 +421,7 @@
             <path>
               <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
-              <item name="sp-routing-and-filtering" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-security-basic-authentication" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -382,82 +430,118 @@
             <path>
               <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
-              <item name="sp-routing-and-filtering" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-security-inmemory-authentication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-security-inmemory-authentication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-security-inmemory-authentication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-security-inmemory-authentication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-security-inmemory-authentication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spsecurityinmemoryauthentication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-security-inmemory-authentication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spsecurityinmemoryauthentication" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-security-inmemory-authentication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spsecurityinmemoryauthentication" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-security-inmemory-authentication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spsecurityinmemoryauthentication" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-security-inmemory-authentication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-security-inmemory-authentication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-security-inmemory-authentication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-security-inmemory-authentication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
+              <item name="sp-security-inmemory-authentication" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="adoc-files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
-              <item name="sp-routing-and-filtering" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
-              <item name="sp-routing-and-filtering" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
-              <item name="sp-routing-and-filtering" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
-              <item name="sp-routing-and-filtering" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
-              <item name="sp-routing-and-filtering" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
-              <item name="sp-routing-and-filtering" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring Multi Modules Project with JPA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring Multi Modules Project with JPA" type="462c0819:PsiDirectoryNode" />
-              <item name="sp-routing-and-filtering" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="pre" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -472,7 +556,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;maven g&#9;ACTION&#9;Maven.ExecuteGoal&#10;termi&#9;ACTION&#9;ActivateTerminalToolWindow&#10;maven goal&#9;ACTION&#9;Maven.ExecuteGoal&#10;maven go&#9;ACTION&#9;Maven.ExecuteGoal&#10;Maven Go&#9;ACTION&#9;Maven.ExecuteGoal&#10;Maven G&#9;ACTION&#9;Maven.ExecuteGoal&#10;execute &#9;ACTION&#9;Maven.ExecuteGoal&#10;termin&#9;ACTION&#9;ActivateTerminalToolWindow" />
+    <property name="SearchEverywhereHistoryKey" value="termin&#9;ACTION&#9;ActivateTerminalToolWindow&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;maven g&#9;ACTION&#9;Maven.ExecuteGoal&#10;termi&#9;ACTION&#9;ActivateTerminalToolWindow&#10;maven goal&#9;ACTION&#9;Maven.ExecuteGoal&#10;maven go&#9;ACTION&#9;Maven.ExecuteGoal&#10;Maven Go&#9;ACTION&#9;Maven.ExecuteGoal&#10;Maven G&#9;ACTION&#9;Maven.ExecuteGoal&#10;execute &#9;ACTION&#9;Maven.ExecuteGoal" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/sp-routing-and-filtering/gateway" />
@@ -485,11 +569,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\My Docs\Projects\Spring Multi Modules Project with JPA\sp-resource-properties-path\src\main\resources\inner" />
       <recent name="D:\My Docs\Projects\Spring Multi Modules Project with JPA\sp-routing-and-filtering\book\src\main\resources\templates\html" />
       <recent name="D:\My Docs\Projects\Spring Multi Modules Project with JPA\sp-routing-and-filtering\book\src\main\resources\templates" />
       <recent name="D:\My Docs\Projects\Spring Multi Modules Project with JPA\sp-routing-and-filtering" />
       <recent name="D:\My Docs\Projects\Spring Multi Modules Project with JPA\sp-restdocs\src\main\resources" />
-      <recent name="D:\My Docs\Projects\Spring Multi Modules Project with JPA\sp-restdocs\src\main" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.sovannarith.sprestdocs" />
@@ -502,11 +586,11 @@
       <recent name="com.sovannarith.info.swaggerConfig" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\My Docs\Projects\Spring Multi Modules Project with JPA\sp-security-inmemory-authentication\src\main\java\com\sovannarith\spsecurityinmemoryauthentication" />
+      <recent name="D:\My Docs\Projects\Spring Multi Modules Project with JPA\sp-security-inmemory-authentication\src\main\resources" />
+      <recent name="D:\My Docs\Projects\Spring Multi Modules Project with JPA\sp-resource-properties-path\src\main\resources" />
       <recent name="D:\My Docs\Projects\Spring Multi Modules Project with JPA\sp-routing-and-filtering\book\src\main\resources\templates\adoc-files" />
       <recent name="D:\My Docs\Projects\Spring Multi Modules Project with JPA\sp-routing-and-filtering\book\src\main\resources\templates" />
-      <recent name="D:\My Docs\Projects\Spring Multi Modules Project with JPA\sp-routing-and-filtering\book\src\main\resources" />
-      <recent name="D:\My Docs\Projects\Spring Multi Modules Project with JPA\sp-routing-and-filtering\book\src\main\java\com\sovannarith\sproutingandfiltering\book" />
-      <recent name="D:\My Docs\Projects\Spring Multi Modules Project with JPA\sp-routing-and-filtering" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -527,7 +611,7 @@
     </option>
     <option name="contentProportion" value="0.21433906" />
   </component>
-  <component name="RunManager" selected="Spring Boot.BookApplication">
+  <component name="RunManager" selected="Spring Boot.SpSecurityInmemoryAuthenticationApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -548,52 +632,6 @@
       <option name="MAIN_CLASS_NAME" value="com.sovannarith.sprestdocs.ApplicationTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="WebLayerTest.deleteBatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sp-restdocs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sovannarith.sprestdocs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.sovannarith.sprestdocs" />
-      <option name="MAIN_CLASS_NAME" value="com.sovannarith.sprestdocs.WebLayerTest" />
-      <option name="METHOD_NAME" value="deleteBatch" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="WebLayerTest.shouldReturnDefaultMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sp-restdocs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sovannarith.sprestdocs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.sovannarith.sprestdocs" />
-      <option name="MAIN_CLASS_NAME" value="com.sovannarith.sprestdocs.WebLayerTest" />
-      <option name="METHOD_NAME" value="shouldReturnDefaultMessage" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -676,6 +714,10 @@
       <module name="kk" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sovannarith.kk.KkApplication" />
     </configuration>
+    <configuration name="SpResourcePropertiesPathApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sp-resource-properties-path" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sovannarith.spresourcepropertiespath.SpResourcePropertiesPathApplication" />
+    </configuration>
     <configuration name="SpRestdocsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sp-restdocs" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sovannarith.sprestdocs.SpRestdocsApplication" />
@@ -683,6 +725,26 @@
     <configuration name="SpRoutingAndFilteringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sp-routing-and-filtering" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sovannarith.sproutingandfiltering.SpRoutingAndFilteringApplication" />
+    </configuration>
+    <configuration name="SpSecurityBasicAuthenticationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sp-security-basic-authentication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sovannarith.spsecuritybasicauthentication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sovannarith.spsecuritybasicauthentication.SpSecurityBasicAuthenticationApplication" />
+    </configuration>
+    <configuration name="SpSecurityInmemoryAuthenticationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sp-security-inmemory-authentication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sovannarith.spsecurityinmemoryauthentication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sovannarith.spsecurityinmemoryauthentication.SpSecurityInmemoryAuthenticationApplication" />
     </configuration>
     <configuration name="SpSecurityOauthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sp-security-oauth" />
@@ -753,19 +815,20 @@
       <item itemvalue="Spring Boot.SpRoutingAndFilteringApplication" />
       <item itemvalue="Spring Boot.BookApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
-      <item itemvalue="JUnit.WebLayerTest.shouldReturnDefaultMessage" />
-      <item itemvalue="JUnit.WebLayerTest.deleteBatch" />
+      <item itemvalue="Spring Boot.SpResourcePropertiesPathApplication" />
       <item itemvalue="JUnit.WebLayerTest.updateUser" />
       <item itemvalue="JUnit.ApplicationTest" />
       <item itemvalue="Spring Boot.SpringhateoasApplication (1)" />
+      <item itemvalue="Spring Boot.SpSecurityBasicAuthenticationApplication" />
+      <item itemvalue="Spring Boot.SpSecurityInmemoryAuthenticationApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SpSecurityInmemoryAuthenticationApplication" />
+        <item itemvalue="Spring Boot.SpSecurityBasicAuthenticationApplication" />
         <item itemvalue="Spring Boot.SpringhateoasApplication (1)" />
         <item itemvalue="JUnit.WebLayerTest.updateUser" />
         <item itemvalue="JUnit.ApplicationTest" />
-        <item itemvalue="JUnit.WebLayerTest.deleteBatch" />
-        <item itemvalue="JUnit.WebLayerTest.shouldReturnDefaultMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -800,6 +863,9 @@
       <workItem from="1524045565512" duration="860000" />
       <workItem from="1524046869359" duration="7740000" />
       <workItem from="1524101157614" duration="4130000" />
+      <workItem from="1524407372057" duration="169000" />
+      <workItem from="1524413235774" duration="2373000" />
+      <workItem from="1524479891310" duration="8093000" />
     </task>
     <servers />
   </component>
@@ -836,83 +902,84 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145908000" />
+    <option name="totallyTimeSpent" value="156543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.329429" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.329429" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="8" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
+      <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3987441" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32967034" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="9" visible="true" weight="0.39403453" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32967034" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.39403453" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.44583988" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32810047" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28916544" />
-      <window_info anchor="right" id="Bean Validation" order="3" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info id="Learn" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.329429" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32810047" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28916544" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
+      <window_info id="Learn" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.329429" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.52747256" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44583988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.329429" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32810047" />
-      <window_info id="Capture Tool" order="6" />
+      <window_info id="Capture Tool" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32967034" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32967034" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.329429" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2635432" />
-      <window_info id="Learn" order="7" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.329429" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28916544" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.329429" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Learn" order="6" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3987441" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.39403453" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -925,13 +992,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sp-hateoas/src/main/java/com/sovannarith/springhateoas/RestController/UserController.java</url>
+          <url />
           <line>38</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sp-restdocs/src/main/java/com/sovannarith/sprestdocs/SpRestdocsApplication.java</url>
+          <url />
           <line>10</line>
           <properties />
           <option name="timeStamp" value="6" />
@@ -941,110 +1008,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sp-restdocs/target/generated-snippets/web-layer-test/update-user/http-request.adoc">
-      <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp-restdocs/target/generated-snippets/web-layer-test/update-user/response-body.adoc">
-      <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="36">
-            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp-restdocs/target/generated-snippets/lele/curl-request.adoc" />
-    <entry file="file://$PROJECT_DIR$/sp-restdocs/target/generated-snippets/lele/httpie-request.adoc" />
-    <entry file="file://$PROJECT_DIR$/sp-restdocs/target/generated-snippets/lele/request-body.adoc" />
-    <entry file="file://$PROJECT_DIR$/sp-restdocs/src/main/resources/user-api.adoc">
-      <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="202">
-            <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp-hateoas/src/main/java/com/sovannarith/springhateoas/RestController/DogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp-hateoas/src/main/java/com/sovannarith/springhateoas/SpringhateoasApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp-restdocs/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="14" selection-start-line="14" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="n#dependencies#0;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp-swagger-ui/src/main/java/com/sovannarith/spswaggerui/SpSwaggerUiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp-restdocs/src/main/java/com/sovannarith/sprestdocs/RestController/restDoc/RestDocController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp-swagger-ui/src/main/java/com/sovannarith/spswaggerui/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp-swagger-ui/src/main/java/com/sovannarith/spswaggerui/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.1.RELEASE/spring-security-oauth2-2.0.1.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configuration/ResourceServerConfigurerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jpa-repo/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp-security-oauth/src/main/resources/data.sql" />
-    <entry file="file://$PROJECT_DIR$/sp-security-oauth/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/sp-security-oauth/src/main/java/com/sovannarith/spsecurityoauth/SpSecurityOauthApplication.java" />
-    <entry file="file://$PROJECT_DIR$/sp-security-oauth/src/main/java/com/sovannarith/spsecurityoauth/service/UserService.java" />
-    <entry file="file://$PROJECT_DIR$/sp-security-oauth/src/main/java/com/sovannarith/spsecurityoauth/dao/UserDao.java" />
-    <entry file="file://$PROJECT_DIR$/sp-security-oauth/src/test/java/com/sovannarith/spsecurityoauth/SpSecurityOauthApplicationTests.java" />
     <entry file="file://$PROJECT_DIR$/sp-security-oauth/src/main/java/com/sovannarith/spsecurityoauth/service/UserServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/sp-security-oauth/src/main/java/com/sovannarith/spsecurityoauth/config/SecurityConfig.java" />
     <entry file="file://$PROJECT_DIR$/sp-security-oauth/src/main/java/com/sovannarith/spsecurityoauth/config/ResourceServerConfig.java" />
@@ -1140,10 +1103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
           <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <element signature="e#364#386#0" expanded="true" />
-            <element signature="method#simpleFilter#0;class#GatewayApplication#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1165,12 +1124,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="method#filterType#0;class#SimpleFilter#0" expanded="true" />
-            <element signature="method#filterOrder#0;class#SimpleFilter#0" expanded="true" />
-            <element signature="method#shouldFilter#0;class#SimpleFilter#0" expanded="true" />
-            <element signature="method#run#0;class#SimpleFilter#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1193,12 +1146,175 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sp-routing-and-filtering/book/src/main/java/com/sovannarith/sproutingandfiltering/book/config/MainConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="32" />
+        <state relative-caret-position="120">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="e#438#452#0" expanded="true" />
             <element signature="method#addViewControllers#0;class#MainConfig#0" expanded="true" />
             <element signature="method#addResourceHandlers#0;class#MainConfig#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp-resource-properties-path/src/main/resources/inner/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp-resource-properties-path/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp-resource-properties-path/src/main/java/com/sovannarith/spresourcepropertiespath/SpResourcePropertiesPathApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding>
+            <element signature="method#main#0;class#SpResourcePropertiesPathApplication#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp-resource-properties-path/src/main/java/com/sovannarith/spresourcepropertiespath/config/TestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="e#401#415#0" expanded="true" />
+            <element signature="method#test#0;class#TestClass#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpa-repo/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp-security-basic-authentication/src/main/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp-security-basic-authentication/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp-security-basic-authentication/src/main/resources/templates/hello.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp-security-basic-authentication/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp-security-basic-authentication/src/main/java/com/sovannarith/spsecuritybasicauthentication/SpSecurityBasicAuthenticationApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="method#main#0;class#SpSecurityBasicAuthenticationApplication#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp-security-basic-authentication/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/resources/spring-security-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/java/com/sovannarith/spsecurityinmemoryauthentication/SpSecurityInmemoryAuthenticationApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="method#main#0;class#SpSecurityInmemoryAuthenticationApplication#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp-security-basic-authentication/src/main/java/com/sovannarith/spsecuritybasicauthentication/config/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp-security-basic-authentication/src/main/java/com/sovannarith/spsecuritybasicauthentication/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding>
+            <element signature="e#726#740#0" expanded="true" />
+            <element signature="e#1270#1275#0" expanded="true" />
+            <element signature="method#userDetailsService#0;class#WebSecurityConfig#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/java/com/sovannarith/spsecurityinmemoryauthentication/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+          <folding>
+            <element signature="method#greeting#0;class#HomeController#0" expanded="true" />
+            <element signature="method#m#0;class#HomeController#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp-security-inmemory-authentication/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-329">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/resources/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/resources/static/img/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/java/com/sovannarith/spsecurityinmemoryauthentication/web/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp-security-inmemory-authentication/src/main/java/com/sovannarith/spsecurityinmemoryauthentication/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+          <folding>
+            <element signature="method#configure#1;class#SecurityConfig#0" expanded="true" />
           </folding>
         </state>
       </provider>

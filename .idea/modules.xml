@@ -7,8 +7,11 @@
       <module fileurl="file://$PROJECT_DIR$/sp-routing-and-filtering/gateway/gateway.iml" filepath="$PROJECT_DIR$/sp-routing-and-filtering/gateway/gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/jpa-repo/jpa-repo.iml" filepath="$PROJECT_DIR$/jpa-repo/jpa-repo.iml" />
       <module fileurl="file://$PROJECT_DIR$/sp-hateoas/sp-hateoas.iml" filepath="$PROJECT_DIR$/sp-hateoas/sp-hateoas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sp-resource-properties-path/sp-resource-properties-path.iml" filepath="$PROJECT_DIR$/sp-resource-properties-path/sp-resource-properties-path.iml" />
       <module fileurl="file://$PROJECT_DIR$/sp-restdocs/sp-restdocs.iml" filepath="$PROJECT_DIR$/sp-restdocs/sp-restdocs.iml" />
       <module fileurl="file://$PROJECT_DIR$/sp-routing-and-filtering/sp-routing-and-filtering.iml" filepath="$PROJECT_DIR$/sp-routing-and-filtering/sp-routing-and-filtering.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sp-security-basic-authentication/sp-security-basic-authentication.iml" filepath="$PROJECT_DIR$/sp-security-basic-authentication/sp-security-basic-authentication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sp-security-inmemory-authentication/sp-security-inmemory-authentication.iml" filepath="$PROJECT_DIR$/sp-security-inmemory-authentication/sp-security-inmemory-authentication.iml" />
       <module fileurl="file://$PROJECT_DIR$/sp-swagger-ui/sp-swagger-ui.iml" filepath="$PROJECT_DIR$/sp-swagger-ui/sp-swagger-ui.iml" />
     </modules>
   </component>

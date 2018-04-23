@@ -11,7 +11,10 @@
         <module name="jpa-repo" />
         <module name="jpa-repo (1)" />
         <module name="sp-hateoas" />
+        <module name="sp-resource-properties-path" />
         <module name="sp-restdocs" />
+        <module name="sp-security-basic-authentication" />
+        <module name="sp-security-inmemory-authentication" />
         <module name="sp-swagger-ui" />
         <module name="spring-hatoas" />
       </profile>
@@ -28,8 +31,11 @@
       <module name="jparepository" target="1.8" />
       <module name="kk" target="1.8" />
       <module name="sp-hateoas" target="1.8" />
+      <module name="sp-resource-properties-path" target="1.8" />
       <module name="sp-restdocs" target="1.8" />
       <module name="sp-routing-and-filtering" target="1.5" />
+      <module name="sp-security-basic-authentication" target="1.8" />
+      <module name="sp-security-inmemory-authentication" target="1.8" />
       <module name="sp-security-oauth" target="1.8" />
       <module name="sp-swagger-ui" target="1.8" />
       <module name="Spring Multi Modules Project with JPA" target="1.8" />

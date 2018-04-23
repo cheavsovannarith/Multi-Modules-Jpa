@@ -15,6 +15,9 @@
         <option value="$PROJECT_DIR$/gateway/pom.xml" />
         <option value="$PROJECT_DIR$/sp-routing-and-filtering/book/pom.xml" />
         <option value="$PROJECT_DIR$/sp-routing-and-filtering/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/sp-resource-properties-path/pom.xml" />
+        <option value="$PROJECT_DIR$/sp-security-basic-authentication/pom.xml" />
+        <option value="$PROJECT_DIR$/sp-security-inmemory-authentication/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
