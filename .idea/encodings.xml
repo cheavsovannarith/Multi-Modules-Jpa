@@ -11,6 +11,10 @@
     <file url="file://$PROJECT_DIR$/sp-routing-and-filtering/gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sp-security-basic-authentication" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sp-security-inmemory-authentication" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sp-security-oauth2-authentication" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sp-security-oauth2-authentication" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sp-swagger-ui" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sp-thymeleaf-basic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sp-war-output-directory" charset="UTF-8" />
   </component>
 </project>

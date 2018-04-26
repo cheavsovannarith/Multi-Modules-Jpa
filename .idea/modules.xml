@@ -12,7 +12,10 @@
       <module fileurl="file://$PROJECT_DIR$/sp-routing-and-filtering/sp-routing-and-filtering.iml" filepath="$PROJECT_DIR$/sp-routing-and-filtering/sp-routing-and-filtering.iml" />
       <module fileurl="file://$PROJECT_DIR$/sp-security-basic-authentication/sp-security-basic-authentication.iml" filepath="$PROJECT_DIR$/sp-security-basic-authentication/sp-security-basic-authentication.iml" />
       <module fileurl="file://$PROJECT_DIR$/sp-security-inmemory-authentication/sp-security-inmemory-authentication.iml" filepath="$PROJECT_DIR$/sp-security-inmemory-authentication/sp-security-inmemory-authentication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sp-security-oauth2-authentication/sp-security-oauth2-authentication.iml" filepath="$PROJECT_DIR$/sp-security-oauth2-authentication/sp-security-oauth2-authentication.iml" />
       <module fileurl="file://$PROJECT_DIR$/sp-swagger-ui/sp-swagger-ui.iml" filepath="$PROJECT_DIR$/sp-swagger-ui/sp-swagger-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sp-thymeleaf-basic/sp-thymeleaf-basic.iml" filepath="$PROJECT_DIR$/sp-thymeleaf-basic/sp-thymeleaf-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sp-war-output-directory/sp-war-output-directory.iml" filepath="$PROJECT_DIR$/sp-war-output-directory/sp-war-output-directory.iml" />
     </modules>
   </component>
 </project>

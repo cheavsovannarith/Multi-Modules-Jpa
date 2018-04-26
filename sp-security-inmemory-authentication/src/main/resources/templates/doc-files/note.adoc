@@ -1,0 +1,114 @@
+= Spring Security user in memory authentication
+Cheav Sovannarith
+v1.0.0
+:sectnums:
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 5
+:sectlinks:
+
+[cols="3,3,5"]
+|===
+|Version|Date|Description
+
+|1.0.0
+|24-04-2018
+|Initialize Document
+
+|===
+
+NOTE: This document is from my research only.
+
+Git clone project from
+
+[source,command]
+----
+git clone https://gitlab.com/Sovannarith/Multi-Modules-Jpa.git
+----
+
+Module names:
+
+[source,command]
+----
+sp-security-inmemory-authentication
+----
+
+BaseURL in gateWay Module = http://localhost:8080
+
+== About This Guide
+
+This guide talk about using user in memory authentication [login, logout, securedPages].
+
+== Dependencies
+
+[source,command]
+----
+        <dependencies>
+           <dependency>
+               <groupId>org.springframework.boot</groupId>
+               <artifactId>spring-boot-starter-web</artifactId>
+           </dependency>
+           <dependency>
+               <groupId>org.springframework.boot</groupId>
+               <artifactId>spring-boot-starter-security</artifactId>
+           </dependency>
+           <dependency>
+               <groupId>org.springframework.boot</groupId>
+               <artifactId>spring-boot-starter-thymeleaf</artifactId>
+           </dependency>
+           <dependency>
+               <groupId>org.thymeleaf.extras</groupId>
+               <artifactId>thymeleaf-extras-springsecurity4</artifactId>
+           </dependency>
+           <!-- bootstrap and jquery -->
+           <dependency>
+               <groupId>org.webjars</groupId>
+               <artifactId>bootstrap</artifactId>
+               <version>3.3.7</version>
+           </dependency>
+           <dependency>
+               <groupId>org.webjars</groupId>
+               <artifactId>jquery</artifactId>
+               <version>3.2.1</version>
+           </dependency>
+           <!-- testing -->
+           <dependency>
+               <groupId>org.springframework.boot</groupId>
+               <artifactId>spring-boot-starter-test</artifactId>
+               <scope>test</scope>
+           </dependency>
+           <dependency>
+               <groupId>org.springframework.security</groupId>
+               <artifactId>spring-security-test</artifactId>
+               <scope>test</scope>
+           </dependency>
+        </dependencies>
+----
+
+== bootstrap and jquery Dependencies
+
+*Important use:*
+
+[source,command]
+----
+      <dependency>
+          <groupId>org.webjars</groupId>
+          <artifactId>bootstrap</artifactId>
+          <version>3.3.7</version>
+        </dependency>
+      <dependency>
+          <groupId>org.webjars</groupId>
+          <artifactId>jquery</artifactId>
+          <version>3.2.1</version>
+      </dependency>
+----
+NOTE: As soon as you import this dependencies, you can use:
+
+ <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/3.3.7/css/bootstrap.min.css}"/>
+
+ <script type="text/javascript" th:src="@{/webjars/jquery/3.2.1/jquery.min.js/}"></script>
+
+ <script type="text/javascript" th:src="@{/webjars/bootstrap/3.3.7/js/bootstrap.min.js}"></script>
+
+and maybe more ...

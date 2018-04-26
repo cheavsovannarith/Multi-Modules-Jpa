@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Asciidoctor 1.5.4">
+  <meta name="author" content="Cheav Sovannarith">
+  <title>Spring Security user in memory authentication</title>
+  <link rel="stylesheet" href="https://asciidoclive.com/assets/asciidoctor.js/css/asciidoctor.css">
+</head>
+
+<body class="article toc2 toc-left">
+  <div id="header">
+    <h1>Spring Security user in memory authentication</h1>
+    <div class="details">
+      <span id="author" class="author">Cheav Sovannarith</span><br>
+      <span id="revnumber">version 1.0.0</span>
+    </div>
+    <div id="toc" class="toc2">
+      <div id="toctitle">Table of Contents</div>
+      <ul class="sectlevel1">
+        <li><a href="#_about_this_guide">1. About This Guide</a></li>
+        <li><a href="#_dependencies">2. Dependencies</a></li>
+        <li><a href="#_bootstrap_and_jquery_dependencies">3. bootstrap and jquery Dependencies</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="content">
+    <div id="preamble">
+      <div class="sectionbody">
+        <table class="tableblock frame-all grid-all spread">
+          <colgroup>
+            <col style="width: 27.2727%;">
+            <col style="width: 27.2727%;">
+            <col style="width: 45.4546%;">
+          </colgroup>
+          <thead>
+            <tr>
+              <th class="tableblock halign-left valign-top">Version</th>
+              <th class="tableblock halign-left valign-top">Date</th>
+              <th class="tableblock halign-left valign-top">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock">1.0.0</p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock">24-04-2018</p>
+              </td>
+              <td class="tableblock halign-left valign-top">
+                <p class="tableblock">Initialize Document</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="admonitionblock note">
+          <table>
+            <tr>
+              <td class="icon">
+                <div class="title">Note</div>
+              </td>
+              <td class="content">
+                This document is from my research only.
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="paragraph">
+          <p>Git clone project from</p>
+        </div>
+        <div class="listingblock">
+          <div class="content">
+            <pre class="highlight"><code class="language-command" data-lang="command">git clone https://gitlab.com/Sovannarith/Multi-Modules-Jpa.git</code></pre>
+          </div>
+        </div>
+        <div class="paragraph">
+          <p>Module names:</p>
+        </div>
+        <div class="listingblock">
+          <div class="content">
+            <pre class="highlight"><code class="language-command" data-lang="command">sp-security-inmemory-authentication</code></pre>
+          </div>
+        </div>
+        <div class="paragraph">
+          <p>BaseURL in gateWay Module = <a href="http://localhost:8080" class="bare">http://localhost:8080</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="sect1">
+      <h2 id="_about_this_guide"><a class="link" href="#_about_this_guide">1. About This Guide</a></h2>
+      <div class="sectionbody">
+        <div class="paragraph">
+          <p>This guide talk about using user in memory authentication [login, logout,
+            securedPages].</p>
+        </div>
+      </div>
+    </div>
+    <div class="sect1">
+      <h2 id="_dependencies"><a class="link" href="#_dependencies">2. Dependencies</a></h2>
+      <div class="sectionbody">
+        <div class="listingblock">
+          <div class="content">
+            <pre class="highlight"><code class="language-command" data-lang="command">        &lt;dependencies&gt;
+           &lt;dependency&gt;
+               &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+               &lt;artifactId&gt;spring-boot-starter-web&lt;/artifactId&gt;
+           &lt;/dependency&gt;
+           &lt;dependency&gt;
+               &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+               &lt;artifactId&gt;spring-boot-starter-security&lt;/artifactId&gt;
+           &lt;/dependency&gt;
+           &lt;dependency&gt;
+               &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+               &lt;artifactId&gt;spring-boot-starter-thymeleaf&lt;/artifactId&gt;
+           &lt;/dependency&gt;
+           &lt;dependency&gt;
+               &lt;groupId&gt;org.thymeleaf.extras&lt;/groupId&gt;
+               &lt;artifactId&gt;thymeleaf-extras-springsecurity4&lt;/artifactId&gt;
+           &lt;/dependency&gt;
+           &lt;!-- bootstrap and jquery --&gt;
+           &lt;dependency&gt;
+               &lt;groupId&gt;org.webjars&lt;/groupId&gt;
+               &lt;artifactId&gt;bootstrap&lt;/artifactId&gt;
+               &lt;version&gt;3.3.7&lt;/version&gt;
+           &lt;/dependency&gt;
+           &lt;dependency&gt;
+               &lt;groupId&gt;org.webjars&lt;/groupId&gt;
+               &lt;artifactId&gt;jquery&lt;/artifactId&gt;
+               &lt;version&gt;3.2.1&lt;/version&gt;
+           &lt;/dependency&gt;
+           &lt;!-- testing --&gt;
+           &lt;dependency&gt;
+               &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+               &lt;artifactId&gt;spring-boot-starter-test&lt;/artifactId&gt;
+               &lt;scope&gt;test&lt;/scope&gt;
+           &lt;/dependency&gt;
+           &lt;dependency&gt;
+               &lt;groupId&gt;org.springframework.security&lt;/groupId&gt;
+               &lt;artifactId&gt;spring-security-test&lt;/artifactId&gt;
+               &lt;scope&gt;test&lt;/scope&gt;
+           &lt;/dependency&gt;
+        &lt;/dependencies&gt;</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sect1">
+      <h2 id="_bootstrap_and_jquery_dependencies"><a class="link" href="#_bootstrap_and_jquery_dependencies">3. bootstrap and jquery Dependencies</a></h2>
+      <div class="sectionbody">
+        <div class="paragraph">
+          <p><strong>Important use:</strong></p>
+        </div>
+        <div class="listingblock">
+          <div class="content">
+            <pre class="highlight"><code class="language-command" data-lang="command">      &lt;dependency&gt;
+          &lt;groupId&gt;org.webjars&lt;/groupId&gt;
+          &lt;artifactId&gt;bootstrap&lt;/artifactId&gt;
+          &lt;version&gt;3.3.7&lt;/version&gt;
+        &lt;/dependency&gt;
+      &lt;dependency&gt;
+          &lt;groupId&gt;org.webjars&lt;/groupId&gt;
+          &lt;artifactId&gt;jquery&lt;/artifactId&gt;
+          &lt;version&gt;3.2.1&lt;/version&gt;
+      &lt;/dependency&gt;</code></pre>
+          </div>
+        </div>
+        <div class="admonitionblock note">
+          <table>
+            <tr>
+              <td class="icon">
+                <div class="title">Note</div>
+              </td>
+              <td class="content">
+                As soon as you import this dependencies, you can use:
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="literalblock">
+          <div class="content">
+            <pre>&lt;link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/3.3.7/css/bootstrap.min.css}"/&gt;</pre>
+          </div>
+        </div>
+        <div class="literalblock">
+          <div class="content">
+            <pre>&lt;script type="text/javascript" th:src="@{/webjars/jquery/3.2.1/jquery.min.js/}"&gt;&lt;/script&gt;</pre>
+          </div>
+        </div>
+        <div class="literalblock">
+          <div class="content">
+            <pre>&lt;script type="text/javascript" th:src="@{/webjars/bootstrap/3.3.7/js/bootstrap.min.js}"&gt;&lt;/script&gt;</pre>
+          </div>
+        </div>
+        <div class="paragraph">
+          <p>and maybe more &#8230;&#8203;</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

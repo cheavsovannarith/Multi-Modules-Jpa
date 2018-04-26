@@ -24,6 +24,18 @@
         <thymeleaf-layout-dialect.version>2.2.2</thymeleaf-layout-dialect.version>
         <thymeleaf-extras-springsecurity4.version>3.0.2.RELEASE</thymeleaf-extras-springsecurity4.version>
     </properties>
+
+    <developers>
+        <developer>
+            <id>nil</id>
+            <name>Cheav Sovannarith</name>
+            <email>cheavsovannarith@gmail.com</email>
+            <roles>
+                <role>Project developer</role>
+            </roles>
+        </developer>
+    </developers>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

@@ -15,7 +15,10 @@
         <module name="sp-restdocs" />
         <module name="sp-security-basic-authentication" />
         <module name="sp-security-inmemory-authentication" />
+        <module name="sp-security-oauth2-authentication" />
         <module name="sp-swagger-ui" />
+        <module name="sp-thymeleaf-basic" />
+        <module name="sp-war-output-directory" />
         <module name="spring-hatoas" />
       </profile>
     </annotationProcessing>
@@ -37,7 +40,10 @@
       <module name="sp-security-basic-authentication" target="1.8" />
       <module name="sp-security-inmemory-authentication" target="1.8" />
       <module name="sp-security-oauth" target="1.8" />
+      <module name="sp-security-oauth2-authentication" target="1.8" />
       <module name="sp-swagger-ui" target="1.8" />
+      <module name="sp-thymeleaf-basic" target="1.8" />
+      <module name="sp-war-output-directory" target="1.8" />
       <module name="Spring Multi Modules Project with JPA" target="1.8" />
       <module name="spring-hateoas" target="1.8" />
       <module name="spring-hatoas" target="1.8" />
